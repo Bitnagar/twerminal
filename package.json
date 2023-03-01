@@ -1,0 +1,34 @@
+{
+  "name": "twerminal",
+  "version": "1.0.0",
+  "description": "Tweet from your Terminal. Just like that!",
+  "main": "index.js",
+  "bin": {
+    "tweet": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./"
+  },
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "commander": "^9.4.1",
+    "dotenv": "^16.0.3",
+    "inquirer": "^8.0.0",
+    "twitter-api-v2": "^1.12.9"
+  },
+  "keywords": [
+    "CLI",
+    "Tweet",
+    "Twitter",
+    "API",
+    "Twitter",
+    "API"
+  ],
+  "author": "Shivam Bhatnagar",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/yargs": "^17.0.13",
+    "eslint": "^8.27.0"
+  }
+}
