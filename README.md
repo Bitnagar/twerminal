@@ -7,17 +7,25 @@ A CLI for creating tweets directly from command line.
 
 # Installation
 
-Install via
+* Install via
 
 ```
 npm install -g
 ```
 
-Open terminal and run
+* copy .env.example to .env
+
+```
+cp .env.example .env
+```
+* Enter your API keys in .env
+
+
+
+* Open terminal and run
 
 ```
 tweet
-
 ```
 
 You should see Twerminal's interface and supported commands.
